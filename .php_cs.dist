@@ -1,0 +1,29 @@
+<?php
+
+return PhpCsFixer\Config::create()
+    ->setRiskyAllowed(true)
+    ->setRules(
+        [
+            'array_syntax' => ['syntax' => 'short'],
+            '@PSR1'                      => true,
+            '@PSR2'                      => true,
+            '@Symfony'                   => true,
+            '@PHP71Migration'            => true,
+            '@DoctrineAnnotation'        => true,
+            'combine_consecutive_unsets' => true,
+            'heredoc_to_nowdoc'          => true,
+            'no_useless_else'            => true,
+            'no_useless_return'          => true,
+            'ordered_class_elements'     => true,
+            'ordered_imports'            => true,
+            'phpdoc_order'               => true,
+            'psr4'                       => true,
+            'declare_strict_types'       => true,
+            'strict_comparison'          => true,
+            'strict_param'               => true,
+            'no_superfluous_phpdoc_tags' => true,
+            'visibility_required'        => true,
+            'phpdoc_align'               => true,
+            'phpdoc_separation'          => true,
+        ]
+    );
