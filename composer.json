@@ -1,5 +1,6 @@
 {
     "name": "sharsie/php-coding-standard",
+    "version": "0.0.1",
     "require": {
         "php": "^7.1",
         "friendsofphp/php-cs-fixer": "2.16.7"
